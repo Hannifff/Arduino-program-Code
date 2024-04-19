@@ -1,0 +1,25 @@
+Pertama Hubungkan modul pembaca RFID MF-RC522 ke board Arduino sebagai berikut:
+-Pin SDA pembaca ke pin D10 Arduino
+-Pin SCK pembaca ke pin D13 Arduino
+-Pin MOSI pembaca ke pin D11 Arduino
+-Pin MISO pembaca ke pin D12 Arduino
+-Pin GND pembaca ke pin GND Arduino
+-Pin pertama pembaca ke pin D9 Arduino
+-Pin pembaca 3,3V ke pin Arduino 3,3V
+
+Sekarang Hubungkan Layar LCD I2C 16×2 ke papan Arduino sebagai berikut:
+-Hubungkan pin SDA layar ke pin A4 Arduino
+-Hubungkan pin SCL layar ke pin A5 Arduino
+-Hubungkan pin VCC layar ke pin 5V Arduino
+-Hubungkan pin GND layar ke pin GND Arduino
+
+Sekarang, Hubungkan lampu LED, buzzer, dan tombol tekan ke papan Arduino sebagai berikut:
+-Hubungkan LED merah ke pin D4 Arduino
+-Hubungkan LED hijau ke pin D5 Arduino
+-Hubungkan bel ke pin D6 Arduino
+-Hubungkan tombol tekan ke pin D2 Arduino
+
+Terakhir, Hubungkan modul Relay ke papan Arduino sebagai berikut:
+-Hubungkan pin relai VCC ke pin 5V Arduino
+-Hubungkan pin GND relai ke pin GND Arduino
+-Hubungkan pin relay IN ke pin D3 Arduino
